@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-apr-2016, 18.47.29
+    Author     : Lore
+*/
+body{
+    background-color: #D8E1E6;
+    color: #4E5457;
+    font-family: "Arial", Times, sains-serif ;
+    font-size: 20px;
+}
+
+h1{
+    background-color: #4E5457;
+    color: white;
+    text-align:center;
+    font-size: 40px;
+}
+
+h2{
+    background-color: #4E5457;
+    color: white;
+    text-align:justify;
+    font-size: 30px;
+    
+}
+
+h3{
+    background-color: #4E5457;
+    color: white;
+    text-align:justify;
+    font-size: 25px;
+    
+}
+
+h4{
+    color: #4E5457;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+a:link {
+ color : #10577D;
+ text-decoration: none
+}
+
+a:visited {
+ color : #3F7372;
+ text-decoration: none
+}
+
+a:hover, a:active{
+ color : #10577D;
+ font-weight: bold;
+ text-decoration : underline;
+}
+
+
+table {
+    border: 1px solid #D6DDE6;
+    border-collapse: collapse;
+    text-align:center;
+    position: static;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+  
+table td {
+    border:2px solid white;
+    padding: 0.3em;
+}
+  
+table th {
+    border:2px solid white;
+    background-color: #00487D;
+    color: white;
+    font-weight: bold;
+    padding: 0.3em;
+}
+
+table .pari {
+    background-color: #8FC3C1;
+    color: black;
+}
+  
+table .dispari {
+    background-color: #CDD6D6;
+    color: black;
+}
+
+label::before{
+    content: '\A';
+    white-space: pre;
+}
+
+input:focus, textarea:focus {
+     border: 1.5px solid #D3C5C5; 
+    color: #202B67;  
+    font-family: "Arial", Times, sains-serif ;
+    font-size: 15px;
+}
+
+#Descrizione{
+     color: #202B67;
+     font-family: "Arial", Times, sains-serif ;
+     font-size: 15px;
+}
+
+.button{
+    background-color: #00487D;
+    color: white;
+    width:100px; 
+    height:30px;
+    font-family: "Arial", Times, sains-serif ;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #D6DDE6;
+}
+
+li{list-style-type:circle;}
+
+
+.header h1::before{
+        content:url('original.png');
+        margin-left: 30px;
+    }    
+    
+     .header h1{
+        background-color: #D8E1E6;
+        color: #4E5457;
+        font-family: "Arial", Times, sains-serif ;
+        font-size: 40px;
+        text-align: justify;
+     }
+
+     .foot{
+         font-size: 12px;
+         text-align: center;
+         clear:both;
+         position:relative;
+         bottom:0;
+         padding-bottom: 5px;
+         height: 50px; 
+  
+     }
+
+@media only screen and (min-width:1024px) {
+
+    
+    .sidebar1 {
+        float: left;
+        width: 20%;
+        padding-left: 5px;
+              
+    }
+
+    .sidebar2 {
+        float: right;
+        width: 18%;
+        padding-right: 5px;
+    }
+
+
+    .contenuto {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+   
+    
+    .sidebar1 {
+        float: left;
+        width: 20%;
+        padding-left: 5px;
+              
+    }
+
+    .sidebar2 {
+        float: left;
+        width: 20%;
+        padding-right: 5px;
+        clear:both;
+    }
+
+
+    .contenuto {
+        margin-left: 20%;
+        padding-left: 20px;
+    }
+}
+
